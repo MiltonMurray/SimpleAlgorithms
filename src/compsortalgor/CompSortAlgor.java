@@ -48,9 +48,6 @@ import java.util.*;
                   //¸.ø¤°ˇ°·.¸ˇ°·.¸·=+"۵"+=·¸.·°ˇ¸.·°ˇ°¤ø.¸\\ 
 public class CompSortAlgor {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws Exception {
         int size = 200_000;     // change this number to change the size of the random array
         int[] a = new int[size];
@@ -69,7 +66,7 @@ public class CompSortAlgor {
             //call a Sorting algorithm to sort the entire array
             //mergeSort(a, temp, 0, (a.length - 1));
             //quickSort(a, 0, (a.length - 1));
-            insSort(a);
+            //insSort(a);
             //bubbleSort(a);
             
             // get the end time in nanoseconds
